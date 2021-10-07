@@ -1,0 +1,166 @@
+/*My CSS file pf table*/
+
+body{
+	margin: 0px;
+	z-index: 0;
+	max-height: 100%;
+	overflow: hidden;
+	background-image: url('../img/bgimg2.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+div{
+	display: block;
+}
+
+/*The Parent Div*/
+.parent{
+	top: 25%;
+	left: 17%;
+	height: 50%;
+	position: absolute;
+	display: block;
+	z-index: 5;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 14pt;
+	text-transform: capitalize;
+}
+
+/*table:hover{
+
+	box-shadow: 3px 3px 10px 15px gold,
+	            5px 5px 10px 30px silver,
+	            7px 7px 10px 45px black,
+	            9px 9px 10px 60px silver,
+	            11px 11px 10px 65px gold;
+	text-shadow: 2px 2px 10px inherent;            
+}*/
+
+/*All Table Styling*/
+table{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	transition-duration: 1.5s;
+	transition-delay: .5s;
+	transition-property: all;	
+	background-color: transparent;
+	color: orangered;
+	background-image: url('../img/bgimg5.jpg');
+	background-repeat: no-repeat;
+	text-align: center;
+	box-shadow: 3px 3px 10px 15px gold,
+	            5px 5px 10px 30px silver,
+	            7px 7px 10px 45px black,
+	            9px 9px 10px 60px silver,
+	            11px 11px 10px 65px gold;
+	text-shadow: 2px 2px 10px inherent;            
+
+}
+
+#first-cell{
+	text-transform: none;
+}
+
+/*Days*/
+ .day{
+ 	text-align: left;
+	color: #8E44AD;
+	text-shadow: 2px 2px 10px #8E44AD; 	
+ }
+
+/*Courses' names*/
+ .code{
+ 	color: #FFD700;
+ 	text-shadow: 2px 2px 10px #FFD700; 	
+ }
+
+/*Type of Courses*/
+.t-p{
+	color: #FF0000;
+	text-shadow: 2px 2px 10px #FF0000;
+}
+
+/*Header of Courses' names*/
+.sub{
+	color: #45B39D;
+	text-shadow: 2px 2px 10px #00FF00;
+}
+
+/*Free Word*/
+.free{
+	color: #C0C0C0;
+	text-shadow: 2px 2px 10px #C0C0C0;
+}
+
+/*Time & Clock*/
+.time{
+	color: #3498DB;
+	text-shadow: 2px 2px 10px #3498DB;
+}
+
+/*Places*/
+.place{
+	color: whitesmoke;
+	text-shadow: 2px 2px 10px whitesmoke;
+}
+
+/*The Holiday*/
+tfoot{
+	color: #8E44AD;
+	text-shadow: 2px 2px 10px #8E44AD;
+}
+/*------------------------------------------------------------------*/
+
+
+/*Front Gate Div*/
+#flag{
+	display: block;
+	margin: 0px;
+	padding-top: 0px;
+	width: 100%;
+	background-color: transparent;
+}
+
+#front-div{
+	position: absolute;
+	margin-left: 10%;
+	padding-top: 125px; 
+	display: block;
+	width: 80%;
+	height: 100%;
+	font-weight: bold;
+	font-size: 30pt;
+	font-family: roman;
+	text-align: center;
+	background-image: url('../img/bgimg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 10;
+	transition-duration: 1.5s;
+	transition-delay: 0s;
+	transition-property: all;	
+	overflow: hidden;
+	box-shadow: 3px 3px 10px 5px silver,
+	            4px 4px 10px 7px gold;
+}
+
+#king{
+	text-shadow: 3px 3px 10px gold;
+}
+
+#min{
+	text-shadow: 3px 3px 10px silver;
+}
+
+#section{
+	text-shadow: 3px 3px 10px red;
+}
+
+#front-div:hover{
+    transform: rotateY(90deg);
+}
+/*------------------------------------------------------------------*/
